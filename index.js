@@ -15,16 +15,14 @@ function divide (a, b){
 }
 
 function inc (n) {
-  return n ++
+  return n + 1
 }
 
 function dec(n) {
-  return 
+  return n - 1
 }
 
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
+
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
