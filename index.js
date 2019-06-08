@@ -31,10 +31,7 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  return 
+  return parseFloat(n)
 }
 
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
-  })
-}) 
+ 
