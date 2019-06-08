@@ -28,7 +28,6 @@ function makeInt(n) {
 
 function makeInt(n) {
   return parseInt(n, 10)
-  
 }
 
   it('returns NaN as appropriate', function() {
