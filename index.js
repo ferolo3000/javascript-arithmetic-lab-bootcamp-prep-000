@@ -30,6 +30,8 @@ function makeInt(n) {
   return parseInt(n, 10)
 }
 
+function
+
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
