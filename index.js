@@ -26,7 +26,7 @@ function makeInt(n) {
   return parseInt(n)
 }
 
-describe('makeInt(n)', function() {
+/* describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
@@ -38,4 +38,4 @@ describe('makeInt(n)', function() {
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
-})
+}) */
