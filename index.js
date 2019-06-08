@@ -31,7 +31,7 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  
+  return 
 }
 
   it('returns NaN as appropriate', function() {
